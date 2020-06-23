@@ -12,3 +12,8 @@ cd EFCoreTuto
 ```
 after this commands your console application will be created succeeded
 
+## Install EntityFramework Core
+To Install EF Core, you install the package for the EF Core database provider you want to target. This tutorial use SqlServer.
+
+`dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
+- You can indicate a specific version in the `dotnet add package` command, using the -v modifier. 
