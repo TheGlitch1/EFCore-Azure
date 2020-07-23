@@ -36,7 +36,7 @@ Handled data by CRUD operations on SQL Azure with EnrityFrameworkCore
   The migrations features in EF Core provide a way to incrementally update the database schema to keep it in sync with the application data model while preserving existing data in the database.
 	Migration inclides command-line tools, see bellow same commande-line to generate your first migration.
 	
-  > If using EF Core 3.x you must be installed `dotnet-ef' commande-line as a global or local tool. Most developers will install `dotnet ef` as a global .
+  > If using EF Core 3.x you must be installed `dotnet ef` commande-line as a global or local tool. Most developers will install `dotnet ef` as a global
 	
 		`dotnet tool install --global dotnet-ef`
 		`dotnet add package Microsoft.EntityFrameworkCore.Design`
