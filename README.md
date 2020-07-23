@@ -20,8 +20,8 @@ Handled data by CRUD operations on SQL Azure with EnrityFrameworkCore
   - You can indicate a specific version in the `dotnet add package` command, using the -v modifier. 
 ## Add your model and config the DbContext object. 
   See
-  - [EFCoreTuto/Models/Tag.cs](./EFCoreTuto/Models/Tag.cs)
-  - [EFCoreTuto/Models/Attributes.cs](./EFCoreTuto/Models/Attributes.cs)
+  - [EFCoreTuto/Models/Tag.cs](./Models/Tag.cs)
+  - [EFCoreTuto/Models/Attributes.cs](./Models/Attributes.cs)
  ## Get server connection information
   Get the connection information you need to connect to the database in Azure SQL Database you will need the server name, 
   [how create a SQL Server in Azure](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-manage).
