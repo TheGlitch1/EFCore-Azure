@@ -27,7 +27,7 @@ Handled data by CRUD operations on SQL Azure with EnrityFrameworkCore
   [how create a SQL Server in Azure](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-manage).
  
   - **Get ADO.NET connection information from sql Azure:** Once you log in to your azure account, navigate to the database you want to use, under **Setting**, select **Connection strings**. Copy the **ADO.NET (authentification SQL)** connection string
-  - **Config your DbContext:** Override a virtual method `OnConfiguring()` from DbContext see [EFCoreTuto/EFCoreContext.cs](./EFCoreTuto/EFCoreContext.cs).
+  - **Config your DbContext:** Override a virtual method `OnConfiguring()` from DbContext see [EFCoreTuto/EFCoreContext.cs](./EFCoreContext.cs).
         Check if your database is availabe and can be connected to, use `dotnet run` command to start your console. Befor you need to add same test in your class program.
 		you need to allow access your client address IP to open connection, in overview database azure page, **set server firewall**, **Add client IP**.
     
